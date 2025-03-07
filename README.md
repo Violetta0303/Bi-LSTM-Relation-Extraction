@@ -34,15 +34,11 @@ To run this project, the following software and libraries are required:
 
    bash
 
-   收起自动换行复制
-
    `pip install torch scikit-learn spacy nltk matplotlib seaborn datasets tqdm`
 
 4. Download and Install SpaCy English Model:
 
    bash
-
-   收起自动换行复制
 
    `python -m spacy download en_core_web_sm`
 
@@ -62,8 +58,6 @@ To run this project, the following software and libraries are required:
     library:
 
    python
-
-   收起自动换行复制
 
    `from datasets import load_dataset dataset = load_dataset("SemEvalWorkshop/sem_eval_2010_task_8")`
 
@@ -99,7 +93,7 @@ To run this project, the following software and libraries are required:
 2. Evaluation Outputs:
 
    - **Stage 1**: Accuracy, F1 score, and recall for the binary classifier.
-   - **Stage 2**: Macro F1 score, accuracy, and macro recall for the 18-class relationship classification.
+   - **Stage 2**: Macro F1 score, accuracy, and Macro recall for the 18-class relationship classification.
    - **Confusion Matrix**: Saved as confusion_matrix.png.
 
 ------

@@ -124,7 +124,7 @@ The project directory includes the following files:
 
   https://drive.google.com/file/d/1loeV3RD11GT_d--FWyhP6rlNujgl4gJd/view?usp=drivesdk
 
-  binary_classifier.pkl
+  binary_classifier.pkl:
 
   https://drive.google.com/file/d/14r-r39cfU9B_uvUmK1t-t38Cb9gJgk9C/view?usp=drive_link
 

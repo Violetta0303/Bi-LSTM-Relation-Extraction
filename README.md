@@ -57,9 +57,7 @@ To run this project, the following software and libraries are required:
 
 1. Load Dataset:
 
-   The SemEval-2010 Task 8 dataset is utilized and can be loaded using the 
-
-   datasets
+   The SemEval-2010 Task 8 dataset is utilized and can be loaded using the datasets
 
     library:
 

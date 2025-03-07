@@ -120,6 +120,10 @@ The project directory includes the following files:
 - **Duplicate Files**: Check for duplicate Test.ipynb files in the directory and remove them to avoid confusion.
 - Glove Download：https://drive.google.com/file/d/1P85bAjABywwEK5QJnc_VDKKgBJr6_Wef/view?usp=drive_link
 
+  attention_bilstm_best.pt:
+
+  https://drive.google.com/file/d/1loeV3RD11GT_d--FWyhP6rlNujgl4gJd/view?usp=drivesdk
+
   binary_classifier.pkl
 
   https://drive.google.com/file/d/14r-r39cfU9B_uvUmK1t-t38Cb9gJgk9C/view?usp=drive_link

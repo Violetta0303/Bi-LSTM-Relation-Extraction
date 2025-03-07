@@ -56,7 +56,7 @@ To run this project, the following software and libraries are required:
    The SemEval-2010 Task 8 dataset is utilized and can be loaded using the datasets library:
 
    ```python
-   `from datasets import load_dataset dataset = load_dataset("SemEvalWorkshop/sem_eval_2010_task_8")`
+   from datasets import load_dataset dataset = load_dataset("SemEvalWorkshop/sem_eval_2010_task_8")
    ```
 
 3. Data Augmentation (Optional):

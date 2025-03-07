@@ -32,17 +32,17 @@ To run this project, the following software and libraries are required:
 
    Execute the following command in the project root directory to install the required Python libraries:
 
-   bash
-
-   `pip install torch scikit-learn spacy nltk matplotlib seaborn datasets tqdm`
+   ```bash
+   pip install torch scikit-learn spacy nltk matplotlib seaborn datasets tqdm
+   ```
 
 4. Download and Install SpaCy English Model:
 
-   bash
+   ```bash
+   python -m spacy download en_core_web_sm
+   ```
 
-   `python -m spacy download en_core_web_sm`
-
-5. Download GloVe Word Vectors:
+6. Download GloVe Word Vectors:
 
    - Download glove.6B.300d.txt (or another version) from the [GloVe website](https://nlp.stanford.edu/projects/glove/).
    - Place the file in the project root directory or update the code with the correct file path.
@@ -55,9 +55,9 @@ To run this project, the following software and libraries are required:
 
    The SemEval-2010 Task 8 dataset is utilized and can be loaded using the datasets library:
 
-   python
-
+   ```python
    `from datasets import load_dataset dataset = load_dataset("SemEvalWorkshop/sem_eval_2010_task_8")`
+   ```
 
 3. Data Augmentation (Optional):
 

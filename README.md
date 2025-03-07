@@ -28,9 +28,9 @@ To run this project, the following software and libraries are required:
 
 ## Installation Guide
 
-1. Install Dependencies
+1. Install Dependencies:
 
-   : Execute the following command in the project root directory to install the required Python libraries:
+   Execute the following command in the project root directory to install the required Python libraries:
 
    bash
 
@@ -38,9 +38,7 @@ To run this project, the following software and libraries are required:
 
    `pip install torch scikit-learn spacy nltk matplotlib seaborn datasets tqdm`
 
-2. Download and Install SpaCy English Model
-
-   :
+4. Download and Install SpaCy English Model:
 
    bash
 
@@ -48,9 +46,7 @@ To run this project, the following software and libraries are required:
 
    `python -m spacy download en_core_web_sm`
 
-3. Download GloVe Word Vectors
-
-   :
+5. Download GloVe Word Vectors:
 
    - Download glove.6B.300d.txt (or another version) from the [GloVe website](https://nlp.stanford.edu/projects/glove/).
    - Place the file in the project root directory or update the code with the correct file path.
@@ -59,9 +55,9 @@ To run this project, the following software and libraries are required:
 
 ## Data Preparation
 
-1. Load Dataset
+1. Load Dataset:
 
-   : The SemEval-2010 Task 8 dataset is utilized and can be loaded using the 
+   The SemEval-2010 Task 8 dataset is utilized and can be loaded using the 
 
    datasets
 
@@ -73,9 +69,7 @@ To run this project, the following software and libraries are required:
 
    `from datasets import load_dataset dataset = load_dataset("SemEvalWorkshop/sem_eval_2010_task_8")`
 
-2. Data Augmentation (Optional)
-
-   :
+3. Data Augmentation (Optional):
 
    - The data.csv file in the project directory contains an augmented dataset (if provided). Ensure its format aligns with the original dataset, including sentences, entity markers, and relationship labels.
 
@@ -83,16 +77,12 @@ To run this project, the following software and libraries are required:
 
 ## Model Training
 
-1. Run the Training Script
-
-   :
+1. Run the Training Script:
 
    - Open train_eval.ipynb and execute the cells sequentially.
    - This script manages data preprocessing, feature extraction, model training, and evaluation.
 
-2. Training Outputs
-
-   :
+2. Training Outputs:
 
    - **Feature Extractor**: Saved as feature_extractor.pkl
    - **Scaler**: Saved as scaler.pkl
@@ -104,15 +94,11 @@ To run this project, the following software and libraries are required:
 
 ## Model Evaluation
 
-1. Run the Test Script
-
-   :
+1. Run the Test Script:
 
    - Open Test.ipynb and execute the cells to load the saved models and evaluate them on the test data.
 
-2. Evaluation Outputs
-
-   :
+2. Evaluation Outputs:
 
    - **Stage 1**: Accuracy, F1 score, and recall for the binary classifier.
    - **Stage 2**: Macro F1 score, accuracy, and macro recall for the 18-class relationship classification.
